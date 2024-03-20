@@ -21,5 +21,9 @@ jobs:
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
         
+    - name: Run NuGet restore
+      run: nuget restore JWT_Example.sln
+
+    
     - name: Run MSBuild
       run: msbuild JWT_Example.sln /p:DeployOnBuild=true
