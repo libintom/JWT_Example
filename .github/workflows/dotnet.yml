@@ -15,10 +15,11 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 4.6.2
-    - name: Display dotnet version
-      run: dotnet --version
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+        
+    - name: Run MSBuild
+      run: msbuild JWT_Example.sln /p:DeployOnBuild=true
