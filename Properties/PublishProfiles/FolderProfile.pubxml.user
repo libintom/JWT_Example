@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>\\police.nsw.gov.au\users\spcc\N1123262\Downloads\JWT_Example-main\JWT_Example-main\bin\DEV\net8.0\publish</_PublishTargetUrl>
+    <History>True|2024-03-25T23:14:03.6107641Z;True|2024-03-26T10:10:54.1622870+11:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
