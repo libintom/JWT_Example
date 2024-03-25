@@ -28,4 +28,4 @@ jobs:
 
     
     - name: Run MSBuild
-      run: msbuild JWT_Example.sln /p:DeployOnBuild=true
+      run: msbuild JWT_Example.sln /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
